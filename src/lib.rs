@@ -9,7 +9,7 @@
 /// # Example
 /// If have a struct with only one field, you can derive `Deref` for it.
 /// ```rust
-/// # use deref::Deref;
+/// # use deref_derive::Deref;
 /// #[derive(Default, Deref)]
 /// struct Foo {
 ///     field: String,
@@ -19,7 +19,7 @@
 /// ```
 /// If you have a struct with multiple fields, you will have to use the `deref` attribute.
 /// ```rust
-/// # use deref::Deref;
+/// # use deref_derive::Deref;
 /// #[derive(Default, Deref)]
 /// struct Foo {
 ///    #[deref]
@@ -31,7 +31,7 @@
 /// ```
 /// Tuple structs are also supported.
 /// ```rust
-/// # use deref::{Deref, DerefMut};
+/// # use deref_derive::{Deref, DerefMut};
 /// #[derive(Default, Deref, DerefMut)]
 /// struct Foo(u32, #[deref] String);
 ///
