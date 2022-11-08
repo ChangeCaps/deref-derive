@@ -1,8 +1,9 @@
 [package]
-name = "deref"
+name = "deref-derive"
 version = "0.1.0"
 edition = "2021"
 description = "Derive Deref and DerefMut for structs"
+repository = "https://github.com/ChangeCaps/deref-derive"
 license = "MIT OR Apache-2.0"
 readme = "README.md"
 
