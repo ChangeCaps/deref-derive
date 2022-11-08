@@ -1,8 +1,9 @@
 //! A tiny crate that provides `#[derive(Deref)]` and `#[derive(DerefMut)]`.
 //!
-//! While this in unidiomatic, it can be useful and sees widespread use in the community.
-//! Therefore, this crate provides a macro to derive [`Deref`](std::ops::Deref)
-//! and [`DerefMut`](std::ops::DerefMut) for you to help reduce boilerplate.
+//! While this in unidiomatic to implement [`Deref`](std::ops::Deref) for wrapper types.
+//! It can be useful and sees widespread use in the community. Therefore, this crate
+//! provides a macro to derive [`Deref`](std::ops::Deref) and [`DerefMut`](std::ops::DerefMut)
+//! for you to help reduce boilerplate.
 
 /// Used to derive [`Deref`](std::ops::Deref) for a struct.
 ///
